@@ -1,10 +1,10 @@
-SR Subs Feed Advanced
+#SR Subs Feed Advanced
 (Youtube Subscriptions Feed Advanced)
 
 Welcome the SR Subs Feed Advanced Web App.
 This App will show you all Subscripton Videos of a Youtube Account without the youtube algorithm that sort out some videos.
 
-How use the Web App
+##How use the Web App
 
 1. Select one of 6 Options.
 
@@ -22,7 +22,7 @@ How use the Web App
 4. After that the Web App will call all Videos and create the Subs Feed. 
     This progress will go 5 sec - 10 min dependant on the number of possibel Videos.
 
-How to get started
+##How to get started
 
 1. Create a Google API CLIENT ID and CLIENT SECRET
 
