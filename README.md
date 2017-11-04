@@ -11,7 +11,7 @@ This App will show you all subscripton videos of a Youtube Account without the Y
     - Big Test: 50 Channels, 100 Videos per Channel, Published at 1-1-2017 or later
     - Giant Test: 50 Channels, 500 Videos per Channel, Published at 1-1-2016 or later
     - BEM: 50 Channels, 250 Videos per Channel, Published at 1-1-2017 or later
-    - *Not possible right now* Custom: You can choose Maximum Channels, Maximum Videos, Earliest Date possible 
+    - **_Not possible right now_** Custom: You can choose Maximum Channels, Maximum Videos, Earliest Date possible 
 
 2. Click on Authorize this App to Authorize this App.
 
