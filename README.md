@@ -22,7 +22,7 @@ This App will show you all subscripton videos of a Youtube Account without the Y
 
 ## How to get started
 
-1. Create a Google API
+1. Create a Google API Console project
 
 2. Create a CLIENT ID and CLIENT SECRET in the Google Console API 
     GUIDE -> https://developers.google.com/identity/sign-in/web/devconsole-project
