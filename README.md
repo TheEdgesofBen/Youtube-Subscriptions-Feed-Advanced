@@ -25,8 +25,8 @@ How use the Web App
 
 3. Login or select the Google Account that should be used to show the subscription video of that account.
 
-After that the Web App will call all Videos and create the Subs Feed.
-This progress will go 5 sec - 10 min dependant on the number of possibel Videos.
+4. After that the Web App will call all Videos and create the Subs Feed. 
+    This progress will go 5 sec - 10 min dependant on the number of possibel Videos.
 
 
 How to get started
