@@ -1,8 +1,7 @@
-# SR Subs Feed Advanced
-**(Youtube Subscriptions Feed Advanced)**
+# SR Subs Feed Advanced **(Youtube Subscriptions Feed Advanced)**
 
 Welcome the SR Subs Feed Advanced Web App.
-This App will show you all Subscripton Videos of a Youtube Account without the youtube algorithm that sort out some videos.
+This App will show you all subscripton videos of a Youtube Account without the Youtube algorithm that sort out some videos.
 
 ## How use the Web App
 
@@ -23,8 +22,11 @@ This App will show you all Subscripton Videos of a Youtube Account without the y
 
 ## How to get started
 
-1. Create a Google API CLIENT ID and CLIENT SECRET
+1. Create a Google API
 
-2. Replace the placeholders in the Variables $OAUTH2_CLIENT_ID and $OAUTH2_CLIENT_SECRET in the settings.php file with your CLIENT ID and CLIENT SECRET
+2. Create a CLIENT ID and CLIENT SECRET in the Google Console API 
+    GUIDE -> https://developers.google.com/identity/sign-in/web/devconsole-project
 
-3. [OPTIONAL] to add Videos to a Playlist replace the placeholder in the addingPlaylistId Variable in the main.js file
+3. Replace the placeholders in the Variables $OAUTH2_CLIENT_ID and $OAUTH2_CLIENT_SECRET in the settings.php file with your CLIENT ID and CLIENT SECRET
+
+4. *OPTIONAL* to add Videos to a Playlist replace the placeholder in the addingPlaylistId Variable in the main.js file with the playlist id *(you can get that id in the playlist url https://www.youtube.com/playlist?list=PLAYLIST_ID_HERE)*
