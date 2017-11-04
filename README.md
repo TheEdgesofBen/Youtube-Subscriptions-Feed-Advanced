@@ -1,5 +1,5 @@
 # SR Subs Feed Advanced
-** (Youtube Subscriptions Feed Advanced) **
+**(Youtube Subscriptions Feed Advanced)**
 
 Welcome the SR Subs Feed Advanced Web App.
 This App will show you all Subscripton Videos of a Youtube Account without the youtube algorithm that sort out some videos.
@@ -18,8 +18,8 @@ This App will show you all Subscripton Videos of a Youtube Account without the y
 
 3. Login or select the Google Account that should be used to show the subscription video of that account.
 
-* After that the Web App will call all Videos and create the Subs Feed. 
-    This progress will go 5 sec - 10 min dependant on the number of possibel Videos. *
+*After that the Web App will call all Videos and create the Subs Feed. 
+    This progress will go 5 sec - 10 min dependant on the number of possibel Videos.*
 
 ## How to get started
 
