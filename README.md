@@ -1,4 +1,4 @@
-# SR Subs Feed Advanced **(Youtube Subscriptions Feed Advanced)**
+# SR Subs Feed Advanced
 
 Welcome the SR Subs Feed Advanced Web App.
 This App will show you all subscripton videos of a Youtube Account without the Youtube algorithm that sort out some videos.
