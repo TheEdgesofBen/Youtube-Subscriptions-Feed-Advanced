@@ -9,7 +9,7 @@ How use the Web App
 
 1. Select one of 6 Options.
 
-1.1 Small Test: 4 Channels, 10 Videos per Channel, Published at 1-1-2017 or later
+    1.1 Small Test: 4 Channels, 10 Videos per Channel, Published at 1-1-2017 or later
 
 1.2 Middle Test: 10 Channels, 25 Videos per Channel, Published at 1-1-2017 or later
 
