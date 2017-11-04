@@ -11,15 +11,15 @@ How use the Web App
 
     1.1 Small Test: 4 Channels, 10 Videos per Channel, Published at 1-1-2017 or later
 
-1.2 Middle Test: 10 Channels, 25 Videos per Channel, Published at 1-1-2017 or later
+    1.2 Middle Test: 10 Channels, 25 Videos per Channel, Published at 1-1-2017 or later
 
-1.3 Big Test: 50 Channels, 100 Videos per Channel, Published at 1-1-2017 or later
+    1.3 Big Test: 50 Channels, 100 Videos per Channel, Published at 1-1-2017 or later
 
-1.4 Giant Test: 50 Channels, 500 Videos per Channel, Published at 1-1-2016 or later
+    1.4 Giant Test: 50 Channels, 500 Videos per Channel, Published at 1-1-2016 or later
 
-1.5 BEM: 50 Channels, 250 Videos per Channel, Published at 1-1-2017 or later
+    1.5 BEM: 50 Channels, 250 Videos per Channel, Published at 1-1-2017 or later
 
-1.6 CUSTOM: You can choose Maximum Channels, Maximum Videos, Latest Date possible
+    1.6 CUSTOM: You can choose Maximum Channels, Maximum Videos, Latest Date possible
 
 2. Click on Authorize this App to Authorize this App.
 
