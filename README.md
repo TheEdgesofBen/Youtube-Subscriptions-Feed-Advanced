@@ -27,6 +27,13 @@ This App will show you all subscripton videos of a Youtube Account without the Y
 2. Create a CLIENT ID and CLIENT SECRET in the Google Console API 
     GUIDE -> https://developers.google.com/identity/sign-in/web/devconsole-project
 
-3. Replace the placeholders in the Variables $OAUTH2_CLIENT_ID and $OAUTH2_CLIENT_SECRET in the settings.php file with your CLIENT ID and CLIENT SECRET
+3. Replace the placeholders in the Variables $OAUTH2_CLIENT_ID and $OAUTH2_CLIENT_SECRET in php/settings.php with your CLIENT ID and CLIENT SECRET
 
-4. *OPTIONAL* to add Videos to a Playlist replace the placeholder in the addingPlaylistId Variable in the main.js file with the playlist id *(you can get that id in the playlist url https://www.youtube.com/playlist?list=PLAYLIST_ID_HERE)*
+4. Replace the placeholder in the Variable OAUTH2_CLIENT_ID in js/auth.php with your CLIENT ID
+
+5. Get the Google API PHP Client and insert the unpacked folder into the php folder
+    Github Link -> https://github.com/google/google-api-php-client/releases/tag/v2.2.0
+    
+6. Replace the path in php/settings.php in line 126 with the right path to vendor/autoload.php in the Google API PHP Client folder
+
+7. *OPTIONAL* to add Videos to a Playlist replace the placeholder in the addingPlaylistId Variable in the main.js file with the playlist id *(you can get that id in the playlist url https://www.youtube.com/playlist?list=PLAYLIST_ID_HERE)*
