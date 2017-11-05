@@ -11,7 +11,7 @@ This App will show you all subscripton videos of a Youtube Account without the Y
     - Big Test: 50 Channels, 100 Videos per Channel, Published at 1-1-2017 or later
     - Giant Test: 50 Channels, 500 Videos per Channel, Published at 1-1-2016 or later
     - BEM: 50 Channels, 250 Videos per Channel, Published at 1-1-2017 or later
-    - **_Not possible right now_** Custom: You can choose Maximum Channels, Maximum Videos, Earliest Date possible 
+    - **_NOT POSSIBLE RIGHT NOW_** Custom: You can choose Maximum Channels, Maximum Videos, Earliest Date possible 
 
 2. Click on Authorize this App to Authorize this App.
 
@@ -34,6 +34,6 @@ This App will show you all subscripton videos of a Youtube Account without the Y
 5. Get the Google API PHP Client and insert the unpacked folder into the php folder
     Github Link -> https://github.com/google/google-api-php-client/releases/tag/v2.2.0
     
-6. Replace the path in php/settings.php in line 126 with the right path to vendor/autoload.php in the Google API PHP Client folder
+6. **_IF NECESSARY_** Replace the path in php/settings.php in line 126 with the right path to vendor/autoload.php in the Google API PHP Client folder
 
-7. *OPTIONAL* to add Videos to a Playlist replace the placeholder in the addingPlaylistId Variable in the main.js file with the playlist id *(you can get that id in the playlist url https://www.youtube.com/playlist?list=PLAYLIST_ID_HERE)*
+7. **_OPTIONAL_** to add Videos to a Playlist replace the placeholder in the addingPlaylistId Variable in the main.js file with the playlist id *(you can get that id in the playlist url https://www.youtube.com/playlist?list=PLAYLIST_ID_HERE)*
