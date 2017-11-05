@@ -25,6 +25,7 @@ This App will show you all subscripton videos of a Youtube Account without the Y
 1. Create a Google API Console project
 
 2. Create a CLIENT ID and CLIENT SECRET in the Google Console API 
+    
     GUIDE -> https://developers.google.com/identity/sign-in/web/devconsole-project
 
 3. Replace the placeholders in the Variables $OAUTH2_CLIENT_ID and $OAUTH2_CLIENT_SECRET in php/settings.php with your CLIENT ID and CLIENT SECRET
