@@ -1,0 +1,1073 @@
+#Navi_Wrapper_Rs {
+    background: #2b2b2b;
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	top: 0px;
+	float: right;
+	z-index: 98;
+}
+
+@media	only screen and (min-width: 1280px) {
+
+	#Nav_Logo_Wrapper {
+        height: 55px;
+        width: 248px;
+		margin-left: 25px;
+		float: left;
+	}
+
+		#Nav_Logo {
+			background: url(../assets/logo.png);
+            height: 55px;
+    		width: 248px;
+            margin-top: 10px;
+		}
+
+}
+
+@media	only screen and (max-width: 1280px) {
+
+	#Nav_Logo_Wrapper {
+        height: 55px;
+        width: 79px;
+		margin-left: 25px;
+		float: left;
+	}
+
+		#Nav_Logo {
+			background: url(../assets/tiny_logo.png);
+            height: 55px;
+    		width: 79px;
+            margin-top: 10px;
+		}
+
+}
+
+		#Menu_Button {
+            position: fixed;
+    		width: 75px;
+    		height: 75px;
+            top: 0px;
+            right: 0px;
+            cursor: pointer;
+            z-index: 97;
+		}
+
+        #Menu_Button:hover {
+            background: #ff4040;
+        }
+
+		#Menu_Bar_Wrapper {
+            width: 25px;
+            height: 18px;
+            margin-top: 28.5px;
+            margin-left: 25px;
+            z-index: 97;
+		}
+
+		.menu_bar {
+			position: relative;
+			background-color: white;
+			width: 25px;
+			height: 2px;
+			margin-top: 4px;
+		}
+
+			#Menu_Button:hover .menu_bar {
+				background-color: #2b2b2b;
+			}
+
+@media	only screen and (min-width: 1280px) {
+
+    #Menu_Wrapper {
+        position: fixed;
+        background-color: rgba(255, 64, 64, 1);
+		width: 380px;
+		height: 100vh;
+        top: 0px;
+        right: 0px;
+		display: none;
+	}
+
+    #Links_Wrapper {
+        width: 380px;
+        height: 94px;
+        margin-top: 75px;
+        padding-left: 25px;
+    }
+
+        #NewestVideo_Text a {
+            font-weight: 700;
+            font-size: 36px;
+            color: white;
+            text-decoration: none;
+            float: left;
+        }
+
+        #NewestVideo_Text a:hover {
+            color: #2b2b2b;
+        }
+
+        #Info_Text a {
+            font-weight: 700;
+            font-size: 36px;
+            color: white;
+            text-decoration: none;
+            margin-right: 100%;
+            float: left;
+        }
+
+        #Info_Text a:hover {
+            color: #2b2b2b;
+        }
+
+        #About_Text a {
+            font-weight: 700;
+            font-size: 36px;
+            color: white;
+            text-decoration: none;
+            width: 100%;
+            margin-right: 100%;
+            float: left;
+        }
+
+        #About_Text a:hover {
+            color: #2b2b2b;
+        }
+
+    #Navi_Settings_Headline {
+        font-size: 36px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
+
+    #Navi_Settings_Subheadline {
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #Navi_Settings_Wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 12.5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .navi_settings_buttons {
+            background: white;
+            width: 75px;
+            height: 50px;
+            margin-top: 12.5px;
+            margin-left: 12.5px;
+            margin-right: 12.5px;
+            margin-bottom: 12.5px;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .navi_settings_buttons:hover {
+            background: #2b2b2b;
+        }
+
+        .navi_settings_buttons_text {
+            font-size: 14px;
+            font-weight: 700;
+            color: #ff4040;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 16px;
+        }
+
+    #Previously_Watched_Wrapper {
+        width: 380px;
+        height: 200px;
+    }
+
+        #Previously_Watched_Wrapper a{
+            text-decoration: none;
+        }
+
+        #Previously_Watched_Headline {
+            font-size: 36px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 37.5px;
+        }
+
+        #Previously_Watched_Title {
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+            #Previously_Watched_Button {
+                background: white;
+                width: 310px;
+                height: 37.5px;
+                margin-top: 25px;
+                margin-left: 25px;
+                margin-right: 25px;
+                padding-top: 12.5px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            #Previously_Watched_Button:hover {
+                background: #2b2b2b;
+            }
+
+            #Previously_Watched_Button_Text {
+                position: relative;
+                font-size: 20px;
+                font-weight: 700;
+                color: #ff4040;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+    #Nav_Authorize_Wrapper {
+    	position: fixed;
+    	background-color: #ff4040;
+    	height: 55px;
+        top: 0px;
+    	right: 71px;
+    	padding: 10px;
+    	float: right;
+    	z-index: 99;
+    }
+
+    	#Nav_Authorize_Wrapper:hover p {
+    		color: #2b2b2b;
+    		cursor: pointer;
+    	}
+
+    	#Nav_Authorize_Headline {
+    		text-decoration: none;
+    		font-family: 'Rajdhani', sans-serif;
+    		font-weight: 700;
+    		font-size: 57px;
+    		color: #ffffff;
+    		margin-top: -16px;
+    		text-align: center;
+    	}
+
+    	#Nav_Authorize_Text {
+    		text-decoration: none;
+    		font-family: 'Rajdhani', sans-serif;
+    		font-weight: 700;
+    		font-size: 25px;
+    		color: #ffffff;
+    		margin-top: -25px;
+    		text-align: center;
+    	}
+
+        #Nav_Authorize_Wrapper a {
+            text-decoration: none;
+        }
+
+}
+
+@media	only screen and (max-width: 1280px) {
+
+    #Menu_Wrapper {
+        position: fixed;
+        background-color: rgba(255, 64, 64, 1);
+		width: calc(100% - 50px);
+		height: 100vh;
+        top: 0px;
+        right: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+		display: none;
+	}
+
+    #Links_Wrapper {
+        width: 100%;
+        height: 74px;
+        margin-top: 75px;
+    }
+
+        #NewestVideo_Text {
+            width: 181px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #NewestVideo_Text a {
+            font-weight: 700;
+            font-size: 28px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        #NewestVideo_Text a:hover {
+            color: #2b2b2b;
+        }
+
+        #Info_Text {
+            width: 46.3px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #Info_Text a {
+            font-weight: 700;
+            font-size: 28px;
+            color: white;
+            text-decoration: none;
+            margin-right: 100%;
+        }
+
+        #Info_Text a:hover {
+            color: #2b2b2b;
+        }
+
+        #About_Text {
+            width: 227.567px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #About_Text a {
+            font-weight: 700;
+            font-size: 28px;
+            color: white;
+            text-decoration: none;
+            text-wrap: nowrap;
+            width: 100%;
+        }
+
+        #About_Text a:hover {
+            color: #2b2b2b;
+        }
+
+    #Navi_Settings_Headline {
+        font-size: 28px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 31px;
+    }
+
+    #Navi_Settings_Subheadline {
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #Navi_Settings_Wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 7.5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .navi_settings_buttons {
+            background: white;
+            width: 75px;
+            height: 50px;
+            margin-top: 12.5px;
+            margin-left: 12.5px;
+            margin-right: 12.5px;
+            margin-bottom: 12.5px;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .navi_settings_buttons:hover {
+            background: #2b2b2b;
+        }
+
+        .navi_settings_buttons_text {
+            font-size: 14px;
+            font-weight: 700;
+            color: #ff4040;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 16px;
+        }
+
+    #Previously_Watched_Wrapper {
+        width: 100%;
+        height: 200px;
+    }
+
+        #Previously_Watched_Wrapper a{
+            text-decoration: none;
+        }
+
+        #Previously_Watched_Headline {
+            font-size: 28px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 28.5px;
+        }
+
+        #Previously_Watched_Title {
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+            #Previously_Watched_Button {
+                background: white;
+                width: 310px;
+                height: 37.5px;
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 12.5px;
+            }
+
+            #Previously_Watched_Button:hover {
+                background: #2b2b2b;
+            }
+
+            #Previously_Watched_Button_Text {
+                position: relative;
+                font-size: 20px;
+                font-weight: 700;
+                color: #ff4040;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+    #Nav_Authorize_Wrapper {
+    	position: fixed;
+    	height: 50px;
+        top: 0px;
+    	right: 75px;
+        padding-top: 25px;
+        padding-left: 25px;
+    	padding-right: 25px;
+    	float: right;
+    	z-index: 99;
+    }
+
+        #Nav_Authorize_Wrapper:hover {
+            background-color: #ff4040;
+            cursor: pointer;
+        }
+
+
+        #Addto_Authorize_Icon {
+            color: #ff4040;
+            font-size: 25px;
+        }
+
+            #Nav_Authorize_Wrapper:hover #Addto_Authorize_Icon {
+        		color: #2b2b2b;
+        	}
+
+    	#Nav_Authorize_Headline {
+    		display: none;
+    	}
+
+    	#Nav_Authorize_Text {
+    		display: none;
+    	}
+
+        #Nav_Authorize_Wrapper a {
+            text-decoration: none;
+        }
+
+}
+
+    .post-auth {
+        display: none;
+    }
+
+    #Nav_Authorized_Wrapper {
+        position: fixed;
+        height: 50px;
+        top: 0px;
+        right: 75px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        float: right;
+        z-index: 99;
+        display: none;
+    }
+
+        #Addto_Authorized_Icon {
+            color: #40ff40;
+            font-size: 25px;
+        }
+
+		#Added_To_Playlist_Message {
+            position: fixed;
+            height: 50px;
+            top: 0px;
+            right: 95px;
+            float: right;
+            z-index: 99;
+            display: none;
+		}
+
+
+		#Added_To_Playlist_Message p {
+			text-decoration: none;
+			font-family: 'Rajdhani', sans-serif;
+			font-weight: 600;
+			font-size: 62px;
+			color: #40ff40;
+		}
+
+
+/*______________________________________________________________________________
+	Player Settings
+______________________________________________________________________________*/
+
+@media	only screen and (min-width: 1280px) {
+
+
+    #Player_Wrapper {
+        width: 1010px;
+        height: 630.125px;
+        margin-top: 17px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 25px;
+
+    }
+
+        .player {
+            width: 1010px;
+            height: 568.125px;
+        }
+
+    #Video_Options {
+        position: relative;
+        height: 50px;
+        width: 1010px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Next_Video_Icon, #Last_Video_Icon, #AddToPlaylist_Icon, #Addto_Authorize_Icon {
+        display: none;
+    }
+
+}
+
+@media	only screen and (max-width: 1280px) {
+
+
+    #Player_Wrapper {
+        width: calc(100% - 50px);
+        height: auto;
+        margin-top: 17px;
+        margin-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+        .player {
+            width: 100%;
+            height: calc(100vw*0.5625);
+        }
+
+    #Video_Options {
+        position: relative;
+        height: 32px;
+        width: calc(100% - 50px);
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #Next_Video_Button, #Last_Video_Button, #AndToPlaylist_Button {
+        display: none;
+    }
+
+}
+
+@media	only screen and (min-width: 1280px) {
+
+	.video_title_player {
+		font-weight: 500;
+		font-size: 28px;
+		color: #2b2b2b;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+	}
+
+	.channel_title_player {
+		font-weight: 400;
+		font-size: 20px;
+		color: red;
+	}
+
+}
+
+@media	only screen and (max-width: 1280px) {
+
+	.video_title_player {
+		font-weight: 500;
+		font-size: 20px;
+		color: #2b2b2b;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+	}
+
+	.channel_title_player {
+		font-weight: 400;
+		font-size: 16px;
+		color: red;
+	}
+
+}
+
+    #Next_Video_Button {
+        background-color: #ff4040;
+        height: 50px;
+        width: auto;
+        margin-right: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: left;
+    }
+
+    a #Next_Video_Button p {
+		font-weight: 500;
+		font-size: 24px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+        a:hover #Next_Video_Button p {
+            text-decoration: none;
+            color: #2b2b2b;
+        }
+
+        #Next_Video_Icon {
+            background-color: #ff4040;
+            color: white;
+            font-size: 16px;
+            float: left;
+            margin-right: 10px;
+            padding: 8px;
+        }
+
+            #Next_Video_Icon:hover {
+                color: #2b2b2b;
+            }
+
+        #Last_Video_Button {
+            background-color: #ff4040;
+            height: 50px;
+            width: auto;
+			margin-right: 25px;
+            padding-left: 5px;
+            padding-right: 5px;
+            float: left;
+        }
+
+        a #Last_Video_Button p {
+			font-weight: 500;
+			font-size: 24px;
+            text-decoration: none;
+            color: #ffffff;
+            margin-top: 10px;
+        }
+
+            a:hover #Last_Video_Button p {
+                text-decoration: none;
+                color: #2b2b2b;
+            }
+
+    #Last_Video_Icon {
+        background-color: #ff4040;
+        color: white;
+        font-size: 16px;
+        float: left;
+        margin-right: 10px;
+        padding: 8px;
+        display: none;
+    }
+
+        #Last_Video_Icon:hover {
+            color: #2b2b2b;
+        }
+
+    #AndToPlaylist_Button {
+        background-color: #ff4040;
+        height: 50px;
+        width: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: left;
+    }
+
+    a #AndToPlaylist_Button p {
+		font-weight: 500;
+		font-size: 24px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+        a:hover #AndToPlaylist_Button p {
+            text-decoration: none;
+            color: #2b2b2b;
+        }
+
+    #AndToPlaylist_Button_Disabled {
+        background-color: #f2f2f2;
+        height: 50px;
+        width: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 25px;
+        float: left;
+        display: none;
+    }
+
+
+    #AndToPlaylist_Button_Disabled p {
+		font-weight: 500;
+		font-size: 24px;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+    #AddToPlaylist_Icon {
+        background-color: #ff4040;
+        color: white;
+        font-size: 16px;
+        float: left;
+        margin-right: 10px;
+        padding: 8px;
+    }
+
+        #AddToPlaylist_Icon:hover {
+            color: #2b2b2b;
+        }
+
+        #ATPM_Video_Title {
+            color: #ffa0a6;
+        }
+
+@media	only screen and (min-width: 1280px) {
+
+
+    #Prev_Page_Button {
+        position: relative;
+        background-color: #2b2b2b;
+        height: 50px;
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 5px;
+        float: right;
+    }
+
+    a #Prev_Page_Button p {
+		font-weight: 500;
+		font-size: 24px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+        a:hover #Prev_Page_Button p {
+            text-decoration: none;
+            color: #d3d3d3;
+        }
+
+    #Prev_10_Button {
+        position: relative;
+        background-color: #2b2b2b;
+        height: 50px;
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        float: right;
+    }
+
+    a #Prev_10_Button p {
+		font-weight: 500;
+		font-size: 24px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+        a:hover #Prev_10_Button p {
+            text-decoration: none;
+            color: #d3d3d3;
+        }
+
+    #Next_Page_Button {
+        position: relative;
+        background-color: #2b2b2b;
+        height: 50px;
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 5px;
+        float: right;
+    }
+
+    a #Next_Page_Button p {
+		font-weight: 500;
+		font-size: 24px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+        a:hover #Next_Page_Button p {
+            text-decoration: none;
+            color: #d3d3d3;
+        }
+
+    #Next_10_Button {
+        position: relative;
+        background-color: #2b2b2b;
+        height: 50px;
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 5px;
+        float: right;
+    }
+
+    a #Next_10_Button p {
+		font-weight: 500;
+		font-size: 24px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+        a:hover #Next_10_Button p {
+            text-decoration: none;
+            color: #d3d3d3;
+        }
+
+    #Pagesite_Title {
+		font-weight: 500;
+		font-size: 24px;
+        position: relative;
+        top: 10px;
+        margin-left: 10px;
+        float: right;
+    }
+
+}
+
+@media	only screen and (max-width: 1280px) {
+
+
+    #Prev_Page_Button {
+        position: relative;
+        background-color: #2b2b2b;
+        height: 32px;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        float: right;
+    }
+
+    a #Prev_Page_Button p {
+		font-weight: 600;
+		font-size: 16px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 6px;
+    }
+
+        a:hover #Prev_Page_Button p {
+            text-decoration: none;
+            color: #d3d3d3;
+        }
+
+    #Prev_10_Button {
+        position: relative;
+        background-color: #2b2b2b;
+        height: 32px;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: right;
+    }
+
+    a #Prev_10_Button p {
+		font-weight: 600;
+		font-size: 16px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 6px;
+    }
+
+        a:hover #Prev_10_Button p {
+            text-decoration: none;
+            color: #d3d3d3;
+        }
+
+    #Next_Page_Button {
+        position: relative;
+        background-color: #2b2b2b;
+        height: 32px;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        float: right;
+    }
+
+    a #Next_Page_Button p {
+		font-weight: 600;
+		font-size: 16px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 6px;
+    }
+
+        a:hover #Next_Page_Button p {
+            text-decoration: none;
+            color: #d3d3d3;
+        }
+
+    #Next_10_Button {
+        position: relative;
+        background-color: #2b2b2b;
+        height: 32px;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        float: right;
+    }
+
+    a #Next_10_Button p {
+		font-weight: 600;
+		font-size: 16px;
+        text-decoration: none;
+        color: #ffffff;
+        margin-top: 6px;
+    }
+
+        a:hover #Next_10_Button p {
+            text-decoration: none;
+            color: #d3d3d3;
+        }
+
+    #Pagesite_Title {
+		font-weight: 500;
+		font-size: 16px;
+        position: relative;
+        top: 6px;
+        margin-left: 10px;
+        float: right;
+    }
+
+@media	only screen and (max-width: 450px) {
+
+    #Pagesite_Title {
+		display: none;
+    }
+
+}
+
+
+}
+
+
+/*______________________________________________________________________________
+	Player Settings
+______________________________________________________________________________*/
+
+#Subs_Feed_Wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+    #Sub_Video {
+        width: 320px;
+        height: 280px;
+        margin: 5px;
+		margin-top: 25px;
+    }
+
+	.video_title {
+        width: 100%;
+        height: 26px;
+		font-weight: 500;
+		font-size: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+	}
+
+	.channel_title{
+		font-weight: 400;
+		font-size: 16px;
+		color: red;
+	}
+
+	.thumbnails_img {
+		width: 320px;
+	    height: 180px;
+	}
+
+	.thumbnails_img img{
+		width: 320px;
+		height: 180px;
+	}
+
+	#Sub_Video a:link{
+		text-decoration: none;
+		color: #2b2b2b;
+	}
+
+	#Sub_Video a:hover{
+		text-decoration: underline;
+		color: #2b2b2b;
+	}
+
+	#Sub_Video a:visited{
+		color: #2b2b2b;
+	}
+
+	#Sub_Video a:active{
+		color: #2b2b2b;
+	}

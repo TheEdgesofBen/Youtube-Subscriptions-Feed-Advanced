@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'sr_sfa_iconfonts';
+  src:  url('../assets/fonts/sr_sfa_iconfonts.eot?7y5ido');
+  src:  url('../assets/fonts/sr_sfa_iconfonts.eot?7y5ido#iefix') format('embedded-opentype'),
+    url('../assets/fonts/sr_sfa_iconfonts.ttf?7y5ido') format('truetype'),
+    url('../assets/fonts/sr_sfa_iconfonts.woff?7y5ido') format('woff'),
+    url('../assets/fonts/sr_sfa_iconfonts.svg?7y5ido#sr_sfa_iconfonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="sr_sfa_"], [class*=" sr_sfa_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sr_sfa_iconfonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sr_sfa_last_video:before {
+  content: "\e900";
+}
+.sr_sfa_next_video:before {
+  content: "\e901";
+}
+.sr_sfa_addto_playlist:before {
+  content: "\e902";
+}
+.sr_sfa_addto_authorize:before {
+  content: "\e903";
+}
+.sr_sfa_addto_authorized:before {
+  content: "\e904";
+}

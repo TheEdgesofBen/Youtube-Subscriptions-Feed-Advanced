@@ -1,0 +1,517 @@
+@import url(https://fonts.googleapis.com/css?family=Rajdhani:300,400,600,500,700);
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	margin: 0px;
+}
+
+.sr_font {
+	font-weight: 300;
+	font-size: 12px;
+	font-family: 'Rajdhani', sans-serif;
+	color: black;
+}
+
+#LoadingScreen_Wrapper {
+	position: fixed;
+	background-color: white;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 101;
+}
+
+#Main_Wrapper {
+	margin-top: 75px;
+}
+
+@media	only screen and (min-width: 1280px) {
+
+	#Authorize_Wrapper {
+		position: fixed;
+		background: url(../assets/bg_authorize.jpg);
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		z-index: 100;
+	}
+
+		#Authorize_Content_Wrapper {
+			width: 375px;
+			margin-top: calc((100vh - 507.5px)/2);
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#Authorize_Text_Welcome {
+			font-weight: 500;
+			font-size: 24px;
+			color: white;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		#Authorize_Interaction_Wrapper {
+			background: rgba(0, 0, 0, 0.25);
+			width: 375px;
+			height: auto;
+			border: 2px solid white;
+			margin-top: 25px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+			#Authorize_Text_Wrapper {
+				width: 100%;
+				height: auto;
+			}
+
+				#Authorize_Text_U {
+					font-weight: 500;
+					font-size: 24px;
+					color: white;
+					text-align: center;
+					text-transform: uppercase;
+					margin-top: -5px;
+				}
+
+				#Authorize_Button {
+					background: rgba(255, 255, 255, 0.25);
+					width: 325px;
+					height: 50px;
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+    				-webkit-box-sizing: border-box;
+					border: 2px solid white;
+					margin-top: 1px;
+					margin-left: auto;
+					margin-right: auto;
+					padding-top: 8px;
+					padding-left: 60px;
+				}
+
+					#Authorize_Button:hover {
+						background: rgba(0, 0, 0, 0.75);
+					}
+
+					#Authorize_Button a {
+						font-weight: 700;
+						font-size: 24px;
+						color: white;
+						text-transform: uppercase;
+						text-decoration: none;
+					}
+
+				#Authorize_Text_Use {
+					font-weight: 500;
+					font-size: 24px;
+					color: white;
+					text-align: center;
+					text-transform: uppercase;
+					margin-top: 2px;
+				}
+
+				#Authorize_Logo {
+					background: url(../assets/logo_white.png);
+					width: 248px;
+					height: 55px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+			.breakline {
+				background: white;
+				width: 325px;
+				height: 2px;
+				margin-top: 16px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#Authorize_Settings_Headline {
+				font-size: 24px;
+				font-weight: 700;
+				color: white;
+				text-align: center;
+				text-transform: uppercase;
+				margin-top: 17px;
+			}
+
+			#Authorize_Settings_Subheadline {
+				font-size: 12px;
+				font-weight: 500;
+				color: white;
+				text-align: center;
+				text-transform: uppercase;
+				margin-top: -3px;
+			}
+
+			#Authorize_Settings_Wrapper {
+				width: 375px;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-wrap: wrap;
+			    flex-wrap: wrap;
+			    -webkit-box-pack: center;
+			    -ms-flex-pack: center;
+	            justify-content: center;
+				margin-top: 7px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 12.5px;
+				padding-left: -12.5px;
+				padding-right: -12.5px;
+			}
+
+				.authorize_settings_buttons {
+					background: rgba(255, 255, 255, 0.25);
+					width: 95px;
+					height: 50px;
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+    				-webkit-box-sizing: border-box;
+					border: 2px solid white;
+					margin-top: 12.5px;
+					margin-left: 12.5px;
+					margin-right: 12.5px;
+					margin-bottom: 12.5px;
+					text-decoration: none;
+				}
+
+					.authorize_settings_buttons:hover {
+						background: rgba(0, 0, 0, 0.75);
+					}
+
+				.authorize_settings_buttons_text {
+					font-size: 14px;
+					font-weight: 700;
+					color: white;
+					text-align: center;
+					text-transform: uppercase;
+					margin-top: 13.5px;
+				}
+
+				.authorize_settings_buttons_disabled {
+					background: rgba(255, 255, 255, 0.25);
+					width: 95px;
+					height: 50px;
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+    				-webkit-box-sizing: border-box;
+					border: 2px solid rgba(255, 255, 255, 0.50);
+					margin-top: 12.5px;
+					margin-left: 12.5px;
+					margin-right: 12.5px;
+					margin-bottom: 12.5px;
+					text-decoration: none;
+				}
+
+				.authorize_settings_buttons_disabled_text {
+					font-size: 14px;
+					font-weight: 700;
+					color: rgba(255, 255, 255, 0.50);
+					text-align: center;
+					text-transform: uppercase;
+					margin-top: 13.5px;
+				}
+
+		#Authorize_App_Version {
+			font-size: 12px;
+			font-weight: 400;
+			color: white;
+			text-align: right;
+			text-transform: uppercase;
+		}
+
+		#Authorize_More_Infos {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+		}
+
+			#Authorize_Info a {
+				font-size: 14px;
+				font-weight: 700;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+				margin-left: 12.5px;
+				margin-right: 12.5px;
+			}
+
+				#Authorize_Info a:hover {
+					text-decoration: underline;
+				}
+
+			#Authorize_About a {
+				font-size: 14px;
+				font-weight: 700;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+				margin-left: 12.5px;
+				margin-right: 12.5px;
+			}
+
+				#Authorize_About a:hover {
+					text-decoration: underline;
+				}
+
+}
+
+@media	only screen and (max-width: 1280px) {
+
+	#Authorize_Wrapper {
+		position: fixed;
+		background: url(../assets/bg_authorize_mobile.jpg);
+		background-size: cover;
+		background-position: 50% 1000%;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		z-index: 100;
+	}
+
+		#Authorize_Content_Wrapper {
+			width: 325px;
+			margin-top: calc((100vh - 507.5px)/2);
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#Authorize_Text_Welcome {
+			font-weight: 500;
+			font-size: 24px;
+			color: white;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		#Authorize_Interaction_Wrapper {
+			background: rgba(0, 0, 0, 0.25);
+			width: 325px;
+			height: auto;
+			border: 2px solid white;
+			margin-top: 25px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+			#Authorize_Text_Wrapper {
+				width: 100%;
+				height: auto;
+			}
+
+				#Authorize_Text_U {
+					font-weight: 500;
+					font-size: 24px;
+					color: white;
+					text-align: center;
+					text-transform: uppercase;
+					margin-top: -20px;
+				}
+
+				#Authorize_Button {
+					background: rgba(255, 255, 255, 0.25);
+					width: 305px;
+					height: 50px;
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+    				-webkit-box-sizing: border-box;
+					border: 2px solid white;
+					margin-top: 1px;
+					margin-left: auto;
+					margin-right: auto;
+					padding-top: 8px;
+					padding-left: 50px;
+				}
+
+					#Authorize_Button:hover {
+						background: rgba(0, 0, 0, 0.75);
+					}
+
+					#Authorize_Button a {
+						font-weight: 700;
+						font-size: 24px;
+						color: white;
+						text-transform: uppercase;
+						text-decoration: none;
+					}
+
+				#Authorize_Text_Use {
+					font-weight: 500;
+					font-size: 24px;
+					color: white;
+					text-align: center;
+					text-transform: uppercase;
+					margin-top: 2px;
+				}
+
+				#Authorize_Logo {
+					background: url(../assets/logo_white.png);
+					width: 248px;
+					height: 55px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+			.breakline {
+				background: white;
+				width: 305px;
+				height: 2px;
+				margin-top: 1px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#Authorize_Settings_Headline {
+				font-size: 24px;
+				font-weight: 700;
+				color: white;
+				text-align: center;
+				text-transform: uppercase;
+				margin-top: 2px;
+			}
+
+			#Authorize_Settings_Subheadline {
+				font-size: 12px;
+				font-weight: 500;
+				color: white;
+				text-align: center;
+				text-transform: uppercase;
+				margin-top: -3px;
+			}
+
+			#Authorize_Settings_Wrapper {
+				width: 325px;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-ms-flex-wrap: wrap;
+			    flex-wrap: wrap;
+			    -webkit-box-pack: center;
+			    -ms-flex-pack: center;
+	            justify-content: center;
+				margin-top: 7px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 5px;
+				padding-left: -5px;
+				padding-right: -5px;
+			}
+
+				.authorize_settings_buttons {
+					background: rgba(255, 255, 255, 0.25);
+					width: 95px;
+					height: 50px;
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+    				-webkit-box-sizing: border-box;
+					border: 2px solid white;
+					margin-top: 5px;
+					margin-left: 5px;
+					margin-right: 5px;
+					margin-bottom: 5px;
+					text-decoration: none;
+				}
+
+					.authorize_settings_buttons:hover {
+						background: rgba(0, 0, 0, 0.75);
+					}
+
+				.authorize_settings_buttons_text {
+					font-size: 14px;
+					font-weight: 700;
+					color: white;
+					text-align: center;
+					text-transform: uppercase;
+					margin-top: 13.5px;
+				}
+
+				.authorize_settings_buttons_disabled {
+					background: rgba(255, 255, 255, 0.25);
+					width: 95px;
+					height: 50px;
+					box-sizing: border-box;
+					-moz-box-sizing: border-box;
+    				-webkit-box-sizing: border-box;
+					border: 2px solid rgba(255, 255, 255, 0.50);
+					margin-top: 5px;
+					margin-left: 5px;
+					margin-right: 5px;
+					margin-bottom: 5px;
+					text-decoration: none;
+				}
+
+				.authorize_settings_buttons_disabled_text {
+					font-size: 14px;
+					font-weight: 700;
+					color: rgba(255, 255, 255, 0.50);
+					text-align: center;
+					text-transform: uppercase;
+					margin-top: 13.5px;
+				}
+
+		#Authorize_App_Version {
+			font-size: 12px;
+			font-weight: 400;
+			color: white;
+			text-align: right;
+			text-transform: uppercase;
+		}
+
+		#Authorize_More_Infos {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+		}
+
+			#Authorize_Info a {
+				font-size: 14px;
+				font-weight: 700;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+				margin-left: 12.5px;
+				margin-right: 12.5px;
+			}
+
+				#Authorize_Info a:hover {
+					text-decoration: underline;
+				}
+
+			#Authorize_About a {
+				font-size: 14px;
+				font-weight: 700;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+				margin-left: 12.5px;
+				margin-right: 12.5px;
+			}
+
+				#Authorize_About a:hover {
+					text-decoration: underline;
+				}
+
+}
