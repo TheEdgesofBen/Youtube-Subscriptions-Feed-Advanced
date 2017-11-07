@@ -15,7 +15,7 @@ This App will show you all subscripton videos of a Youtube Account without the Y
 
 2. Click on Authorize this App to Authorize this App.
 
-3. Login or select the Google Account that should be used to show the subscription video of that account.
+3. Login or select the Google Account that should be used to show the subscription videos of that account.
 
     *After that the Web App will call all Videos and create the Subs Feed. 
     This progress will go 5 sec - 10 min dependant on the number of possibel Videos.*
@@ -24,9 +24,12 @@ This App will show you all subscripton videos of a Youtube Account without the Y
 
 1. Create a Google API Console project
 
-2. Create a CLIENT ID and CLIENT SECRET in the Google Console API 
+2. Create a CLIENT ID and CLIENT SECRET in the Google Console API   
+    - Enter your web server URL in the Authorized JavaScript origins field
+    - Enter your web server URL to the index.php in the Authorized redirect URL field
+    - Activied Youtube Data API v3 for your project -> https://console.cloud.google.com/apis/library/youtube.googleapis.com
     
-    GUIDE -> https://developers.google.com/identity/sign-in/web/devconsole-project
+    *GUIDE -> https://developers.google.com/identity/sign-in/web/devconsole-project*
 
 3. Replace the placeholders in the Variables $OAUTH2_CLIENT_ID and $OAUTH2_CLIENT_SECRET in php/settings.php with your CLIENT ID and CLIENT SECRET
 
