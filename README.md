@@ -33,7 +33,7 @@ This App will show you all subscripton videos of a Youtube Account without the Y
 
 3. Replace the placeholders in the Variables $OAUTH2_CLIENT_ID and $OAUTH2_CLIENT_SECRET in php/settings.php with your CLIENT ID and CLIENT SECRET
 
-4. Replace the placeholder in the Variable OAUTH2_CLIENT_ID in js/auth.php with your CLIENT ID
+4. Replace the placeholder in the Variable OAUTH2_CLIENT_ID in js/auth.JS with your CLIENT ID
 
 5. Get the Google API PHP Client and insert the unpacked folder into the php folder
     Github Link -> https://github.com/google/google-api-php-client/releases/tag/v2.2.0
